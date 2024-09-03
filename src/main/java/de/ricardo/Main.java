@@ -6,6 +6,11 @@ public class Main {
         System.out.println("Dont call a Button");
         yellowButton();
         greenButton();
+        blueButton();
+    }
+
+    public static void blueButton(){
+        System.out.println("BlueButton");   
     }
 
     public static void yellowButton(){
